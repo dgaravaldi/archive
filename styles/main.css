@@ -1,0 +1,26 @@
+/* CSS Document */
+body{
+	font-family: serif;
+}
+
+nav {
+    margin-top: 120px;
+    margin-left: 180px;
+    margin-bottom: 300px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.box>*:first-child {
+    align-self: stretch;
+}
+.box .selected {
+    align-self: center;
+}
+
+footer {
+	/*margin-top: 20rem;*/
+}
